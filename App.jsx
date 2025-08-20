@@ -10,7 +10,7 @@ import ChatbotPage from './components/ChatbotPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/parfum-oneri/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/perfumes" element={<PerfumesPage />} />
